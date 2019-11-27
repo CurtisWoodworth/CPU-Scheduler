@@ -6,3 +6,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Visual Studio Code https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
