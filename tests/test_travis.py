@@ -1,2 +1,2 @@
-def test_build(self):
+def test_build():
     pass
