@@ -3,9 +3,9 @@ repos:
     rev: v2.4.0
     hooks:
     -  id: flake8
-repos:
 -   repo: https://github.com/psf/black
-    rev: latest
+    rev: stable
     hooks:
     -  id: black
-    -  args: ["--config", "pyproject.toml"]
+       args: ["--config", "pyproject.toml"]
+       language_version: python3.8
