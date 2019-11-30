@@ -8,8 +8,8 @@ install:
   - pip install black
 # command to run tests
 script:
-  - flake8
-  - black --check
+  - flake8 .
+  - black --check .
   - pytest
 
 branches:
